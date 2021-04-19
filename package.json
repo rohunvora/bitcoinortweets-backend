@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/rohunvora/bitcoinortweets-backend#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.4",
     "mongoose-float": "^1.0.4"
