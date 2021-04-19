@@ -16,8 +16,3 @@ db.once('open', () => {
 db.on('error', (error) => {
     console.log(`Database error\n${error}`)
 })
-
-module.exports.Author = require('./Author')
-module.exports.Bitcoin = require('./Bitcoin')
-module.exports.Tweet = require('./Tweet')
-module.exports.User = require('./User')
